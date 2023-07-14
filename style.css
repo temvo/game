@@ -27,7 +27,7 @@ body{
    background-image: url(./img/fon.jpg);
    background-size: 100% cover;
    background-repeat: no-repeat;
-   color:rgb(255, 255, 255)
+   color:rgb(0, 0, 0)
 }
 .btn{
 background-color: rgba(135, 135, 161, 0.444);
