@@ -17,14 +17,17 @@ main{
    display:flex;
    flex-direction: column;
    justify-content: center;
-padding:30px;
+padding:160px;
 font-size:24px;
 }
 .menu{
 margin:auto;
 }
 body{
-   background-image: url(./image018.jpg.crdownload);
+   background-image: url(./img/fon.jpg);
+   background-size: 100% cover;
+   background-repeat: no-repeat;
+   color:rgb(255, 255, 255)
 }
 .btn{
 background-color: rgba(135, 135, 161, 0.444);
@@ -43,3 +46,72 @@ transition: 0.2s;
 }
 
 
+.game-header{
+   display: flex;
+   align-items: center;
+
+}
+.reset  {
+width: 134px;
+}
+.lvl{
+flex-grow: 1;
+text-align: left;
+
+
+}
+.null{
+padding-top: 0;
+
+
+
+}
+
+.game-cards{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+
+
+}
+
+.card{
+width: 150px;
+height: 200px;
+border-radius: 20px;
+background-size: cover;
+background-color: white;
+background-position:center;
+transition: 0.5s;
+
+}
+.rotate{
+   transform: perspective(230px) rotateY(180deg);
+   transition: 0.5s;
+}
+
+.context
+{
+   color:darkgrey;
+}
+
+.model{
+   width:100vw;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   background-color: rgb(0, 0, 0,0.8 );
+   position:absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+
+
+}
+
+.context{
+font-size: 40px;
+
+}
